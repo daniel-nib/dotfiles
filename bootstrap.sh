@@ -24,4 +24,4 @@ sudo apt update
 sudo apt install fzf autojump
 # sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-chsh -s $(which zsh)
+sudo chsh -s $(which zsh)
