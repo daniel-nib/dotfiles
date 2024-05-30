@@ -70,7 +70,7 @@ zstyle ':omz:update' frequency 30
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(cmdtime git autojump zsh-autosuggestions zsh-syntax-highlighting zsh-npm-scripts-autocomplete)
+plugins=(cmdtime git autojump zsh-autosuggestions zsh-npm-scripts-autocomplete)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -111,3 +111,5 @@ for file in ~/.{path,exports,aliases,functions,extra}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
+
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
