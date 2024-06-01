@@ -27,4 +27,10 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-sy
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install --all
 
+# installs fnm (Fast Node Manager)
+curl -fsSL https://fnm.vercel.app/install | bash
+# download and install Node.js
+fnm use --install-if-missing 22
+
+
 sudo chsh "$(id -un)" --shell "/usr/bin/zsh"
