@@ -18,10 +18,6 @@ function doIt() {
 doIt;
 unset doIt;
 
-# install extra tools
-
-sudo apt update -y
-sudo apt install -y autojump
 
 git clone https://github.com/tom-auger/cmdtime ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/cmdtime
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
