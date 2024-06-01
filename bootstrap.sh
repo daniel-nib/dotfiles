@@ -32,6 +32,6 @@ fi
 # installs fnm (Fast Node Manager)
 curl -fsSL https://fnm.vercel.app/install | bash
 # download and install Node.js
-fnm use --install-if-missing 22
+$HOME/.local/share/fnm/fnm use --install-if-missing 22
 
 sudo chsh "$(id -un)" --shell "/usr/bin/zsh"
